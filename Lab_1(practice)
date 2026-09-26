@@ -1,0 +1,9 @@
+import string
+
+text= input("Enter Text: ")
+
+text = text.lower()
+
+text = text.translate(str.maketrans('','',string.punctuation ))
+
+print("Result: ",text)
